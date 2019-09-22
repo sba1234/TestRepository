@@ -1,3 +1,4 @@
+//sample program for encapsulation
 package com.encapsulation;
 
 public class Shape {
