@@ -1,3 +1,4 @@
+//sample program for  Exception Propogation
 package com.exception;
 
 public class P5 {

@@ -1,3 +1,4 @@
+//sample program for Arithmetic Exception
 package com.exception;
 
 public class P1 {
