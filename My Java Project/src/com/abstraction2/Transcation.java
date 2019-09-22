@@ -1,3 +1,4 @@
+//sample program for ATM transaction
 package com.abstraction2;
 
 public class Transcation {
