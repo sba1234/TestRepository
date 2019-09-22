@@ -8,7 +8,7 @@ void test1()
 	
 }
 public static void main(String[] args) {
-	A1 ob=new A1();//class A1 is abstract cannot be instantiated
+	//A1 ob=new A1();//class A1 is abstract cannot be instantiated
 	A3 ob1=new A3();
 }
 }
