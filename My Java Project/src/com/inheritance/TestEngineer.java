@@ -1,3 +1,4 @@
+//sample program for inheritance
 package com.inheritance;
 
 public class TestEngineer extends Employee{
