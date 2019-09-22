@@ -1,3 +1,4 @@
+//sample program for constructor
 package com.constructor;
 
 public class School {

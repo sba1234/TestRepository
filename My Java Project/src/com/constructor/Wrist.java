@@ -1,3 +1,4 @@
+//sample program using constructor to display watch properties
 package com.constructor;
 
 public class Wrist {

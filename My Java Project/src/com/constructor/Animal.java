@@ -1,4 +1,4 @@
-//sample program for constructor
+//sample program using constructor to display animal properties
 package com.constructor;
 
 public class Animal {
