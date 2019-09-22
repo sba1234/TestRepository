@@ -1,3 +1,4 @@
+//sample program for primitive type casting
 package com.primitivetypecasting;
 
 public class ClassP1 {
