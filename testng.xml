@@ -3,7 +3,13 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.koovs.testpom.PaymentWithCreditCard"/>
+      <class name="com.koovs.testpom.CashOnDelivery"/>
+      <class name="com.koovs.testpom.ConfirmOrder"/>
       <class name="com.koovs.testpom.CouponCode"/>
+      <class name="com.koovs.testpom.SortByLowPrice"/>
+      <class name="com.koovs.testpom.WishList"/>
+      <class name="com.koovs.testpom.ProceedToCheckout"/>
       <class name="com.koovs.testpom.Addtobag"/>
     </classes>
   </test> <!-- Test -->

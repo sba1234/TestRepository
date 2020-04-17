@@ -10,13 +10,55 @@
           <include name="addtoBag"/>
         </methods>
       </class> <!-- com.koovs.testpom.Addtobag -->
-      <class name="com.koovs.testpom.CouponCode">
+      <class name="com.koovs.testpom.WishList">
         <methods>
-          <include name="addtoBag"/>
+          <include name="wishList"/>
           <include name="aMethod"/>
           <include name="bMethod"/>
         </methods>
+      </class> <!-- com.koovs.testpom.WishList -->
+      <class name="com.koovs.testpom.CashOnDelivery">
+        <methods>
+          <include name="aMethod"/>
+          <include name="cashOnDelivery"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.CashOnDelivery -->
+      <class name="com.koovs.testpom.CouponCode">
+        <methods>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+          <include name="couponCode"/>
+        </methods>
       </class> <!-- com.koovs.testpom.CouponCode -->
+      <class name="com.koovs.testpom.ProceedToCheckout">
+        <methods>
+          <include name="proceedToCheckout"/>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.ProceedToCheckout -->
+      <class name="com.koovs.testpom.SortByLowPrice">
+        <methods>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+          <include name="sortByLowPrice"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.SortByLowPrice -->
+      <class name="com.koovs.testpom.ConfirmOrder">
+        <methods>
+          <include name="confirmOrder"/>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.ConfirmOrder -->
+      <class name="com.koovs.testpom.PaymentWithCreditCard">
+        <methods>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+          <include name="paymentWithCreditCard"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.PaymentWithCreditCard -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

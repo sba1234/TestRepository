@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.koovs.testpom.Addtobag">
         <methods>
@@ -10,6 +10,55 @@
           <include name="addtoBag"/>
         </methods>
       </class> <!-- com.koovs.testpom.Addtobag -->
+      <class name="com.koovs.testpom.WishList">
+        <methods>
+          <include name="wishList"/>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.WishList -->
+      <class name="com.koovs.testpom.CashOnDelivery">
+        <methods>
+          <include name="aMethod"/>
+          <include name="cashOnDelivery"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.CashOnDelivery -->
+      <class name="com.koovs.testpom.CouponCode">
+        <methods>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+          <include name="couponCode"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.CouponCode -->
+      <class name="com.koovs.testpom.ProceedToCheckout">
+        <methods>
+          <include name="proceedToCheckout"/>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.ProceedToCheckout -->
+      <class name="com.koovs.testpom.SortByLowPrice">
+        <methods>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+          <include name="sortByLowPrice"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.SortByLowPrice -->
+      <class name="com.koovs.testpom.ConfirmOrder">
+        <methods>
+          <include name="confirmOrder"/>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.ConfirmOrder -->
+      <class name="com.koovs.testpom.PaymentWithCreditCard">
+        <methods>
+          <include name="aMethod"/>
+          <include name="bMethod"/>
+          <include name="paymentWithCreditCard"/>
+        </methods>
+      </class> <!-- com.koovs.testpom.PaymentWithCreditCard -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
